@@ -13,48 +13,41 @@
 <body>
     <div class="calculator">
         <div class="container">
-            <div class="display">
-                <h1>calc</h1> <span>
-                    THEME
-                    <input class="checkbox1" type="checkbox" id="checkbox1" >
-                    <!-- <input id="checkbox1" onclick="" type="checkbox"> -->
-
-                </span>
-            </div>
+          
             <div class="outputscreen">
-                <input class="output" type="text" style="height: 8rem; width: 26rem; border-radius: 25px; background-color:#181f32;
+                <input id="input" class="output" type="text" style="height: 8rem; width: 26rem; border-radius: 25px; background-color:#181f32;
                 color: #e9e3da; font-size: 2rem; ">
             </div>
 
             <div class="btn">
                 <div class="row">
                     <!-- <button type="button" class="btn btn-info">Info</button> -->
-                    <button class="input-button">7</button>
-                    <button class="input-button">8</button>
-                    <button class="input-button">9</button>
-                    <button class="input-button">del</button>
+                    <button id="block7" class="input-button">7</button>
+                    <button id="block8" class="input-button">8</button>
+                    <button id="block9" class="input-button">9</button>
+                   
                 </div>
                 <div class="row">
-                    <button class="input-button">4</button>
-                    <button class="input-button">5</button>
-                    <button class="input-button">6</button>
-                    <button  class="input-button">+</button>
+                    <button id="block4"  class="input-button">4</button>
+                    <button id="block5" class="input-button">5</button>
+                    <button id="block6" class="input-button">6</button>
+                    <button id="plus"  class="input-button">+</button>
                 </div>
                 <div class="row">
-                    <button class="input-button">1</button>
-                    <button class="input-button">2</button>
-                    <button class="input-button">3</button>
-                    <button class="input-button">-</button>
+                    <button id="block71" class="input-button">1</button>
+                    <button id="block2" class="input-button">2</button>
+                    <button id="block3" class="input-button">3</button>
+                    <button id="minus" class="input-button">-</button>
                 </div>
                 <div class="row">
-                    <button class="input-button">.</button>
-                    <button class="input-button">0</button>
-                    <button class="input-button">/</button>
-                    <button class="input-button">*</button>
+                    <button id="dot" class="input-button">.</button>
+                    <button id="block0" class="input-button">0</button>
+                    <button id="divide" class="input-button">/</button>
+                    <button id="multiply" class="input-button">*</button>
                 </div>
                 <div class="row">
-                    <button class="input-button" id="reset">RESET</button>
-                    <button class="input-button" id="reset" style="background-color: red;">=</button>
+                    <button class="input-button" id="clr">RESET</button>
+                    <button class="input-button" id="ans" style="background-color: red;">=</button>
                 </div>
             </div>
         </div>
