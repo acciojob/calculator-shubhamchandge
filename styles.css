@@ -1,2 +1,101 @@
 
 /* Your CSS Code here. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: absolute;
+    width: 30rem;
+    height: 42rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-color: #3b4664;
+    ;
+}
+.checkbox1 input[type="checkbox"]:checked{
+    background-color: red;
+}
+
+
+.display {
+    position: absolute;
+    top: 0rem;
+    left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 26rem;
+    height: 4rem;
+    /* border: 1px solid red; */
+    font-size: 2rem;
+    color: #e9e3da;
+
+
+}
+
+span {
+    margin-left: 150px;
+}
+
+.outputscreen {
+    margin-left: 2rem;
+    position: absolute;
+    top: 4.5rem;
+    width: 26rem;
+    height: 8rem;
+    /* border: 1px solid green; */
+    background-color: #181f32;
+    border-radius: 15px;
+
+}
+
+.btn {
+    position: absolute;
+    top: 14rem;
+    left: 2rem;
+    /* border: 1px solid red; */
+    width: 26rem;
+    height: 26rem;
+    background-color: #232e43;
+    border-radius: 20px;
+
+
+
+
+}
+
+
+button {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 60px;
+    width: 60px;
+    font-size: 2rem;
+    color: rgb(10, 10, 10);
+    background-color: #e9e3da;
+    border-radius: 15px;
+    box-shadow: 1px 8px 5px #888888;
+}
+button:hover{
+    background-color: #a9c1de;
+}
+
+
+#reset {
+    height: 60px;
+    width: 140px;
+    margin-left: 40px;
+    background-color: #647299;
+    color: #e9e3da;
+}
